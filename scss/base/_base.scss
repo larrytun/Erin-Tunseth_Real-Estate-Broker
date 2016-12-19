@@ -6,6 +6,11 @@
             box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+  background-color: $red;
+}
+
 .nav-links a {
   font-size: 14px;
   font-family: 'Source Sans Pro', sans-serif;

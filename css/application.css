@@ -5,6 +5,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  margin: 0px;
+  background-color: #773242; }
+
 .nav-links a {
   font-size: 14px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -182,7 +186,7 @@
   margin-top: 25px; }
 
 .feat-testimonial-1 {
-  min-width: 734px;
+  width: 100%;
   height: 120px;
   border: 1px solid #FEFEFD;
   background-color: #A04E61;
