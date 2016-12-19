@@ -1,4 +1,10 @@
-
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
 .nav-links a {
   font-size: 14px;
@@ -35,4 +41,25 @@
   color: $off-white;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+}
+
+.main-testimonial h4 {
+  font-size: 16px;
+  font-weight: 300;
+  text-shadow: 0px 2px 4px $header-shadow;
+  color: $off-white;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: .3px;
+  margin: 0;
+  line-height: 23px;
+}
+
+.main-testimonial p {
+  font-size: 13px;
+  font-weight: 300;
+  text-shadow: 0px 2px 4px $header-shadow;
+  color: $light-grey;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  margin-top: 5px;
 }

@@ -12,3 +12,92 @@
   margin-top: 26px;
   margin-left: 765px;
 }
+
+.main-body-container {
+  max-width: 734px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-image {
+  background-image: url('../img/main-picture.png');
+  width: 556px;
+  height: 325px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 27px;
+}
+
+.erin-shot {
+  background-image: url('../img/erin.png');
+  width: 158px;
+  height: 201px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 27px;
+}
+
+.main-testimonial {
+  float: right;
+  position: absolute;
+  width: 160px;
+  text-align: center;
+  margin-left: 568px;
+  margin-top: 230px;
+}
+
+.search-pic {
+  background-image: url('../img/portland.png');
+  width: 206px;
+  height: 206px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+}
+
+.favorites-pic {
+  background-image: url('../img/house2.png');
+  width: 206px;
+  height: 206px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+}
+
+.map-pic {
+  background-image: url('../img/map.png');
+  width: 206px;
+  height: 206px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 25px;
+}
+
+.feat-testimonial-1 {
+  min-width: 734px;
+  height: 120px;
+  border: 1px solid $off-white;
+  background-color: $light-red;
+  box-shadow: 0px 2px 4px $header-shadow;
+  margin-top: 108px;
+}
+
+.feat-testimonial-2 {
+  width: 100%;
+  height: 161px;
+  border: 1px solid $off-white;
+  background-color: $light-red;
+  box-shadow: 0px 2px 4px $header-shadow;
+  margin-top: 21px;
+}
+
+.feat-testimonial-3 {
+  width: 100%;
+  height: 229px;
+  border: 1px solid $off-white;
+  background-color: $light-red;
+  box-shadow: 0px 2px 4px $header-shadow;
+  margin-top: 21px;
+}
