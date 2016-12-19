@@ -132,3 +132,30 @@ body {
   color: $off-white;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+ul {
+  list-style: none;
+  padding-left: 8px;
+}
+
+ul li:nth-child(1) {
+  font-size: 16px;
+  font-weight: 300;
+  color: $main-dark;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: -3px;
+}
+
+ul li:nth-child(2) {
+  font-size: 22px;
+  font-weight: 700;
+  color: $cash;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li:nth-child(3) {
+  font-size: 12px;
+  font-weight: 300;
+  color: $main-dark;
+  font-family: 'Source Sans Pro', sans-serif;
+}
