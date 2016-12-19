@@ -119,57 +119,93 @@
 // listings
 
 .listing1 {
-  width: 218px;
-  height: 250px;
-  background-color: $off-white;
-  border-radius: 3px;
-  box-shadow: 3px 4px 21px $header-shadow;
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
 }
 
 .listing1-img {
-  width: 200px;
-  height: 117px;
-  border-radius: 2px;
-  background-image: url('../img/listing-1.png');
-  background-size: cover;
-  background-position: center;
-  margin: auto;
-  margin-top: 8px;
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-1.png'), cover, center, auto, 8px);
 }
 
 .listing2 {
-  width: 218px;
-  height: 250px;
-  background-color: $off-white;
-  border-radius: 3px;
-  box-shadow: 3px 4px 21px $header-shadow;
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
 }
 
 .listing2-img {
-  width: 200px;
-  height: 117px;
-  border-radius: 2px;
-  background-image: url('../img/listing-2.png');
-  background-size: cover;
-  background-position: center;
-  margin: auto;
-  margin-top: 8px;
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-2.png'), cover, center, auto, 8px);
 }
 .listing3 {
-  width: 218px;
-  height: 250px;
-  background-color: $off-white;
-  border-radius: 3px;
-  box-shadow: 3px 4px 21px $header-shadow;
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
 }
 
 .listing3-img {
-  width: 200px;
-  height: 117px;
-  border-radius: 2px;
-  background-image: url('../img/listing-3.png');
-  background-size: cover;
-  background-position: center;
-  margin: auto;
-  margin-top: 8px;
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-3.png'), cover, center, auto, 8px);
+}
+
+.listing4 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing4-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-4.png'), cover, center, auto, 8px);
+}
+
+.listing5 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing5-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-5.png'), cover, center, auto, 8px);
+}
+.listing6 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing6-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-6.png'), cover, center, auto, 8px);
+}
+
+.listing7 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing7-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-7.png'), cover, center, auto, 8px);
+}
+
+.listing8 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing8-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-8.png'), cover, center, auto, 8px);
+}
+.listing9 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing9-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-9.png'), cover, center, auto, 8px);
+}
+
+.listing10 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing10-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-10.png'), cover, center, auto, 8px);
+}
+
+.listing11 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing11-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-11.png'), cover, center, auto, 8px);
+}
+.listing12 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing12-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-12.png'), cover, center, auto, 8px);
 }
