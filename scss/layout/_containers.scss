@@ -44,7 +44,7 @@
   position: absolute;
   width: 160px;
   text-align: center;
-  margin-left: 568px;
+  margin-left: 570px;
   margin-top: 230px;
 }
 
@@ -81,7 +81,7 @@
   border: 1px solid $off-white;
   background-color: $light-red;
   box-shadow: 0px 2px 4px $header-shadow;
-  margin-top: 108px;
+  margin-top: 23px;
 }
 
 .feat-testimonial-2 {
@@ -100,4 +100,11 @@
   background-color: $light-red;
   box-shadow: 0px 2px 4px $header-shadow;
   margin-top: 21px;
+}
+
+.testimonial-heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 58px;
 }

@@ -63,3 +63,43 @@
   margin: 0;
   margin-top: 5px;
 }
+
+.main-body-container h3 {
+  font-size: 23px;
+  font-weight: 300;
+  text-shadow: 0px 2px 4px $header-shadow;
+  color: $off-white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 10px;
+  font-weight: 300;
+  text-shadow: 0px 2px 4px $header-shadow;
+  color: $off-white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.footer p:nth-child(2){
+  margin-left: 20px;
+}
+
+.footer p:nth-child(3){
+  margin-left: 20px;
+}
+
+.testimonial-heading-text {
+  font-size: 39px;
+  font-weight: 300;
+  text-shadow: 0px 2px 4px $header-shadow;
+  color: $off-white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
