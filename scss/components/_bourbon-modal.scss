@@ -23,7 +23,7 @@
   }
 
   label img {
-    border-radius: $modal-trigger-image-width / 2;
+    position: absolute;
     max-width: $modal-trigger-image-width;
   }
 
@@ -111,6 +111,23 @@
       border-bottom: 1px solid $off-white;
       border-top: 1px solid $off-white;
 
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: -5px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
       h2 {
         font-size: 43px;
         font-weight: 300;
@@ -138,8 +155,29 @@
       }
       .testimonial-button {
         width: 162px;
-        margin-bottom: 15px;
-        margin-left: 5px;
+        margin-top: 120px;
+        margin-left: -36px;
+      }
+      .testimonial-slot1 {
+        width: 100%;
+        height: 180px;
+        background-color: $light-red;
+        box-shadow: inset 0px 2px 4px lighten(black, 15%);
+        padding: 14px;
+      }
+      .testimonial-slot2 {
+        width: 100%;
+        height: 117px;
+        background-color: $red;
+        box-shadow: inset 0px 2px 4px lighten(black, 15%);
+        padding: 14px;
+      }
+      .testimonial-slot3 {
+        width: 100%;
+        height: 125px;
+        background-color: $light-red;
+        box-shadow: 0px -2px 4px lighten(black, 16%);
+        padding: 14px;
       }
     }
 
@@ -174,8 +212,8 @@
       }
       .testimonial-button {
         width: 162px;
-        margin-bottom: 15px;
-        margin-left: 5px;
+        margin-top: 120px;
+        margin-left: -36px;
       }
     }
 
