@@ -574,8 +574,8 @@ ul li:nth-child(3) {
       color: #FEFEFD;
       font-family: 'Source Sans Pro', sans-serif;
       position: absolute;
-      margin-left: 224px;
-      margin-top: 50px; }
+      margin-top: 50px;
+      margin-left: -35px; }
     .modal .modal-inner .buyer-half .white-divider {
       position: absolute;
       width: 243px;
@@ -601,8 +601,8 @@ ul li:nth-child(3) {
       color: #FEFEFD;
       font-family: 'Source Sans Pro', sans-serif;
       position: absolute;
-      margin-left: 224px;
-      margin-top: 50px; }
+      margin-top: 50px;
+      margin-left: -35px; }
     .modal .modal-inner .seller-half .white-divider {
       position: absolute;
       width: 243px;
