@@ -61,18 +61,6 @@ body {
   margin: 0;
   margin-top: 5px; }
 
-.view-more {
-  font-size: 23px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  color: #FEFEFD;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  margin-top: 20px;
-  text-align: center;
-  text-decoration: underline;
-  width: 100%; }
-
 .footer p {
   font-size: 10px;
   font-weight: 300;
@@ -506,12 +494,11 @@ ul li:nth-child(3) {
   margin-bottom: 0; }
 .modal label img {
   border-radius: 150px;
-  display: block;
   max-width: 300px; }
 .modal .modal-state {
   display: none; }
 .modal .modal-trigger {
-  padding: 0.8em 1em; }
+  margin-left: 258px; }
 .modal .modal-fade-screen {
   position: fixed;
   top: 0;
@@ -538,7 +525,7 @@ ul li:nth-child(3) {
   right: 1.5em;
   height: 1.5em;
   width: 1.5em;
-  background: #fff;
+  background: #773242;
   cursor: pointer; }
   .modal .modal-close::after, .modal .modal-close::before {
     position: absolute;
@@ -548,7 +535,7 @@ ul li:nth-child(3) {
     left: 50%;
     height: 1.5em;
     width: 0.15em;
-    background: #ddd;
+    background: #FEFEFD;
     content: "";
     display: block;
     margin: -3px 0 0 -1px;
@@ -558,23 +545,79 @@ ul li:nth-child(3) {
   .modal .modal-close::before {
     transform: rotate(-45deg); }
 .modal .modal-inner {
-  background: #fff;
-  border-radius: 3px;
+  background: #773242;
+  border-radius: 20px;
   margin: auto;
   margin-top: 0;
   max-height: 95%;
   overflow: auto;
-  padding: 1.5em;
   position: relative;
   transition: opacity 0.25s ease;
-  width: 95%; }
+  width: 95%;
+  max-width: 734px; }
   .modal .modal-inner h1 {
-    color: #333;
-    text-align: left;
-    text-transform: capitalize; }
-  .modal .modal-inner p {
-    color: #333;
-    line-height: 1.5em; }
+    font-size: 43px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #FEFEFD;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center; }
+  .modal .modal-inner .buyer-half {
+    height: 233px;
+    width: 100%;
+    border-bottom: 1px solid #FEFEFD;
+    border-top: 1px solid #FEFEFD; }
+    .modal .modal-inner .buyer-half h2 {
+      font-size: 43px;
+      font-weight: 300;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      color: #FEFEFD;
+      font-family: 'Source Sans Pro', sans-serif;
+      position: absolute;
+      margin-left: 224px;
+      margin-top: 50px; }
+    .modal .modal-inner .buyer-half .white-divider {
+      position: absolute;
+      width: 243px;
+      height: 1px;
+      background-color: #FEFEFD;
+      margin-top: 110px;
+      margin-left: 224px; }
+    .modal .modal-inner .buyer-half .buyers {
+      width: 140px;
+      margin-top: 45px;
+      margin-left: 72px; }
+    .modal .modal-inner .buyer-half .testimonial-button {
+      width: 162px;
+      margin-bottom: 15px;
+      margin-left: 5px; }
+  .modal .modal-inner .seller-half {
+    height: 233px;
+    width: 100%; }
+    .modal .modal-inner .seller-half h2 {
+      font-size: 43px;
+      font-weight: 300;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      color: #FEFEFD;
+      font-family: 'Source Sans Pro', sans-serif;
+      position: absolute;
+      margin-left: 224px;
+      margin-top: 50px; }
+    .modal .modal-inner .seller-half .white-divider {
+      position: absolute;
+      width: 243px;
+      height: 1px;
+      background-color: #FEFEFD;
+      margin-top: 110px;
+      margin-left: 224px; }
+    .modal .modal-inner .seller-half .sellers {
+      width: 140px;
+      margin-top: 45px;
+      margin-left: 72px; }
+    .modal .modal-inner .seller-half .testimonial-button {
+      width: 162px;
+      margin-bottom: 15px;
+      margin-left: 5px; }
   .modal .modal-inner .modal-intro {
     margin-bottom: 1em; }
   .modal .modal-inner .modal-content {
@@ -651,6 +694,18 @@ ul li:nth-child(3) {
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   margin-top: 28px;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%; }
+
+.view-more {
+  font-size: 23px;
+  font-weight: 300;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #FEFEFD;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  margin-top: 20px;
   text-align: center;
   text-decoration: underline;
   width: 100%; }
