@@ -1,0 +1,19 @@
+@mixin search-listings($width, $height, $bg-color, $br-radius, $bx-shadow, $margin-top) {
+  width: $width;
+  height: $height;
+  background-color: $bg-color;
+  border-radius: $br-radius;
+  box-shadow: $bx-shadow;
+  margin-top: $margin-top;
+}
+
+@mixin search-list-pics($width, $height, $br-radius, $bg-img, $bg-size, $bg-position, $margin, $margin-top) {
+  width: $width;
+  height: $height;
+  border-radius: $br-radius;
+  background-image: $bg-img;
+  background-size: $bg-size;
+  background-position: $bg-position;
+  margin: $margin;
+  margin-top: $margin-top;
+}

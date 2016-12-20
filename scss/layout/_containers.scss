@@ -83,7 +83,6 @@
   margin-top: 23px;
   padding-left: 17px;
   padding-right: 17px;
-  padding-top: 8px;
 }
 
 .feat-testimonial-2 {
@@ -94,7 +93,6 @@
   margin-top: 21px;
   padding-left: 17px;
   padding-right: 17px;
-  padding-top: 8px;
 }
 
 .feat-testimonial-3 {
@@ -105,7 +103,6 @@
   margin-top: 21px;
   padding-left: 17px;
   padding-right: 17px;
-  padding-top: 8px;
 }
 
 .testimonial-heading {
@@ -113,4 +110,99 @@
   width: 100%;
   justify-content: space-between;
   margin-top: 58px;
+}
+
+
+// listings
+
+.listing1 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing1-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-1.png'), cover, center, auto, 8px);
+}
+
+.listing2 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing2-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-2.png'), cover, center, auto, 8px);
+}
+.listing3 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing3-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-3.png'), cover, center, auto, 8px);
+}
+
+.listing4 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing4-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-4.png'), cover, center, auto, 8px);
+}
+
+.listing5 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing5-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-5.png'), cover, center, auto, 8px);
+}
+.listing6 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing6-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-6.png'), cover, center, auto, 8px);
+}
+
+.listing7 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing7-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-7.png'), cover, center, auto, 8px);
+}
+
+.listing8 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing8-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-8.png'), cover, center, auto, 8px);
+}
+.listing9 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing9-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-9.png'), cover, center, auto, 8px);
+}
+
+.listing10 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing10-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-10.png'), cover, center, auto, 8px);
+}
+
+.listing11 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing11-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-11.png'), cover, center, auto, 8px);
+}
+.listing12 {
+  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+}
+
+.listing12-img {
+  @include search-list-pics(200px, 117px, 2px, url('../img/listing-12.png'), cover, center, auto, 8px);
 }

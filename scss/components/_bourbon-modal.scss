@@ -1,0 +1,294 @@
+.modal {
+  $base-border-color: #dcdcdc !default;
+  $base-border-radius: 20px !default;
+  $base-background-color: #fff !default;
+  $base-font-size: 1em !default;
+  $base-line-height: 1.5em !default;
+  $action-color: #477dca !default;
+  $dark-gray: #333 !default;
+  $light-gray: #ddd !default;
+  $medium-screen: 40em !default;
+  $large-screen: 53.75em !default;
+  $base-font-color: $dark-gray !default;
+  $modal-padding: 3em;
+  $modal-background: $base-background-color;
+  $modal-close-color: $light-gray;
+  $modal-image-height: 135px;
+  $modal-image-width: $modal-image-height;
+  $modal-trigger-image-width: 300px;
+
+  label {
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+
+  label img {
+    position: absolute;
+    max-width: $modal-trigger-image-width;
+  }
+
+  .modal-state {
+    display: none;
+  }
+
+  .modal-trigger {
+    margin-left: 258px;
+  }
+
+  .modal-fade-screen { // overlay
+    @include position(fixed, 0);
+    background-color: rgba(#000, 0.85);
+    opacity: 0;
+    padding-top: 0.6em;
+    text-align: left;
+    transition: opacity 0.25s ease;
+    visibility: hidden;
+    z-index: 99999999999;
+
+
+
+    .modal-bg {
+      @include position(absolute, 0);
+      cursor: pointer;
+    }
+  }
+
+  .modal-close {
+    @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
+    @include size(1.5em);
+    background: $red;
+    cursor: pointer;
+
+    &::after,
+    &::before {
+      @include position(absolute, 3px 3px 0 50%);
+      @include size(0.15em 1.5em);
+      background: $off-white;
+      content: "";
+      display: block;
+      margin: -3px 0 0 -1px;
+      transform: rotate(45deg);
+    }
+
+    &:hover::after,
+    &:hover::before {
+      background: darken($modal-close-color, 10%);
+    }
+
+    &::before {
+      transform: rotate(-45deg);
+    }
+  }
+
+  .modal-inner {
+    background: $red;
+    border-radius: $base-border-radius;
+    margin: auto;
+    margin-top: 0;
+    max-height: 95%;
+    overflow: auto;
+    position: relative;
+    transition: opacity 0.25s ease;
+    width: 95%;
+    max-width: 734px;
+
+
+
+
+
+    h1 {
+      font-size: 43px;
+      font-weight: 300;
+      text-shadow: 0px 2px 4px $header-shadow;
+      color: $off-white;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+    }
+
+    .buyer-half {
+      height: 233px;
+      width: 100%;
+      border-bottom: 1px solid $off-white;
+      border-top: 1px solid $off-white;
+
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: -5px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      h2 {
+        font-size: 43px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -35px;
+      }
+
+      .white-divider {
+        position: absolute;
+        width: 243px;
+        height: 1px;
+        background-color: $off-white;
+        margin-top: 110px;
+        margin-left: 224px;
+      }
+
+      .buyers {
+        width: 140px;
+        margin-top: 45px;
+        margin-left: 72px;
+      }
+      .testimonial-button {
+        width: 162px;
+        margin-top: 120px;
+        margin-left: -36px;
+      }
+      .testimonial-slot1 {
+        width: 100%;
+        height: 180px;
+        background-color: $light-red;
+        box-shadow: inset 0px 2px 4px lighten(black, 15%);
+        padding: 14px;
+      }
+      .testimonial-slot2 {
+        width: 100%;
+        height: 117px;
+        background-color: $red;
+        box-shadow: inset 0px 2px 4px lighten(black, 15%);
+        padding: 14px;
+        padding-top: 17px;
+      }
+      .testimonial-slot3 {
+        width: 100%;
+        height: 125px;
+        background-color: $light-red;
+        box-shadow: 0px -2px 4px lighten(black, 16%);
+        padding: 14px;
+      }
+    }
+
+    .seller-half {
+      height: 233px;
+      width: 100%;
+
+      p{
+        font-size: 14px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: -5px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      h2 {
+        font-size: 43px;
+        font-weight: 300;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -35px;
+      }
+
+      .white-divider {
+        position: absolute;
+        width: 243px;
+        height: 1px;
+        background-color: $off-white;
+        margin-top: 110px;
+        margin-left: 224px;
+      }
+
+      .sellers {
+        width: 140px;
+        margin-top: 45px;
+        margin-left: 72px;
+      }
+      .testimonial-button {
+        width: 162px;
+        margin-top: 120px;
+        margin-left: -36px;
+      }
+      .testimonial-slot1 {
+        width: 100%;
+        height: 171px;
+        background-color: $light-red;
+        box-shadow: inset 0px 2px 4px lighten(black, 15%);
+        padding: 14px;
+      }
+      .testimonial-slot2 {
+        width: 100%;
+        height: 124px;
+        background-color: $red;
+        box-shadow: inset 0px 2px 4px lighten(black, 15%);
+        padding: 14px;
+        padding-top: 17px;
+      }
+      .testimonial-slot3 {
+        width: 100%;
+        height: 151px;
+        background-color: $light-red;
+        box-shadow: 0px -2px 4px lighten(black, 16%);
+        padding: 14px;
+      }
+
+    }
+
+    .modal-intro {
+      margin-bottom: 1em;
+    }
+
+    .modal-content {
+      color: $base-font-color;
+
+    }
+
+    a.cta {
+      color: $base-background-color;
+      display: inline-block;
+      margin-right: 0.5em;
+      margin-top: 1em;
+
+      &:last-child {
+        padding: 0 2em;
+      }
+    }
+  }
+
+  .modal-state:checked + .modal-fade-screen {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-state:checked + .modal-fade-screen .modal-inner {
+    top: 0.5em;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
+}

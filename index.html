@@ -3,6 +3,8 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/application.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Erin Tunseth | Real Estate</title>
   </head>
@@ -12,7 +14,7 @@
       <div class="header">
         <div class="top-heading">
           <img class="premiere-logo" src="img/premiere-logo.png" alt="Premiere" />
-          <img class="main-logo" src="img/erin-logo.png" alt="Erin Tunseth Realtor" />
+          <a href="index.html"><img class="main-logo" src="img/erin-logo.png" alt="Erin Tunseth Realtor" /></a>
           <img class="contact-logo" src="img/contact-logo.png" alt="Contact Erin" />
           <div class="contact-logo-text">
             <h4>Contact Erin</h4>
@@ -24,14 +26,14 @@
           <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="search.html">Search</a>
-            <a href="#">Map</a>
-            <a href="#">Buy</a>
-            <a href="#">Sell</a>
-            <a href="#">Finance</a>
-            <a href="#">Agent</a>
+            <a href="http://erintunseth.premierepropertynw.com/results-map/?sort=importdate&status=A&swlat=45.13197321813187&swlng=-123.43969296875002&nelat=45.70790806560841&nelng=-121.90160703125002&midlat=45.420675&midlng=-122.67065000000002&zoom=11">Map</a>
+            <a href="http://erintunseth.premierepropertynw.com/buy/">Buy</a>
+            <a href="http://erintunseth.premierepropertynw.com/sell/">Sell</a>
+            <a href="http://erintunseth.premierepropertynw.com/finance/">Finance</a>
+            <a href="http://erintunseth.premierepropertynw.com/agents/81975-Erin-Tunseth/">Agent</a>
             <a href="#">My Favorites</a>
-            <a href="#">Community Guides</a>
-            <a href="#">Resources</a>
+            <a href="http://erintunseth.premierepropertynw.com/guides/">Community Guides</a>
+            <a href="http://erintunseth.premierepropertynw.com/resources/">Resources</a>
             <a href="#">Contact Me</a>
           </div>
         </div>
@@ -46,7 +48,7 @@
         </div>
         <a href="search.html"><div class="search-pic"></div></a>
         <div class="favorites-pic"></div>
-        <div class="map-pic"></div>
+        <a href=""><div class="map-pic"></div></a>
         <div class="testimonial-heading">
           <div class="left-line"></div>
           <h2 class="testimonial-heading-text">Client Testimonials</h2>
@@ -65,15 +67,87 @@
           <p>THANKS ERIN, WE LOVE OUR NEW HOME. "</p>
           <p>Dan and Brenda, Portland, Sold home in NE, Bought in Damascus</p>
         </div>
-        <h3 class="view-more">View More Testimonials</h3>
-      </div>
+        <div class="modal">
+          <label class="modal-button" for="modal-1">
+            <div class="modal-trigger"><h3 class="view-more">View More Testimonials</h3></div>
+          </label>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-fade-screen">
+            <div class="modal-inner">
+              <div class="modal-close" for="modal-1"></div>
+              <h1>Testimonials</h1>
+              <div class="buyer-half">
+                <div class="modal">
+                  <label for="buyer-modal">
+                    <div class="modal-trigger">
+                      <h2>Buyers</h2>
+                      <img class="testimonial-button" src="img/testimonial-button.png" alt="" />
+                    </div>
+                  </label>
+                  <input class="modal-state" id="buyer-modal" type="checkbox" />
+                  <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                      <div class="modal-close" for="buyer-modal"></div>
+                      <h1>Buyer Testimonials</h1>
+                      <div class="testimonial-slot1">
+                        <p>“From the very start Erin asked the questions needed to know what were the highest value drivers for our home purchase. She addressed each challenge we faced in meeting a very aggressive timeline offering advice on overcoming each roadblock we encountered.<br>She has represented our interests very well while always showing the appropriate respect and empathy for the seller of our new home too. This was very important as we found last minute repairs addressed as each party felt the other would respond in a fair, reasonable way. I highly recommend Erin and will always call her for any future needs in the greater Portland area! Thank you Erin!”</p>
+                        <h3>-Bill Tucker, SE Portland </h3>
+                      </div>
+                      <div class="testimonial-slot2">
+                        <p>“Erin helped simplify the process and made it very easy for us as first time home buyers. Erin is very knowledgeable and was available at all hours to answer any questions or schedule any last minute tours. With Erin's help we we're able to find our dream home quickly and within our budget.”</p>
+                        <h3>-tjensen5, Multnomah, Portland</h3>
+                      </div>
+                      <div class="testimonial-slot3">
+                        <p>“Erin was exceptional to work with. She listened to what we needed and help us find exactly what we were looking for. She was very patient and personal in her approach with us and answered every question that we had. She knew that the neighborhood was an important factor for us as well and walked through the entire process to help us find our new home!”</p>
+                        <h3>-user4198747, Milwaukie, OR</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="white-divider"></div>
+                <img class="buyers" src="img/buyers.png" alt="" />
+              </div>
+              <div class="seller-half">
+                <div class="modal">
+                  <label for="seller-modal">
+                    <div class="modal-trigger">
+                      <h2>Sellers</h2>
+                      <img class="testimonial-button" src="img/testimonial-button.png" alt="" />
+                    </div>
+                  </label>
+                  <input class="modal-state" id="seller-modal" type="checkbox" />
+                  <div class="modal-fade-screen">
+                    <div class="modal-inner">
+                      <div class="modal-close" for="seller-modal"></div>
+                      <h1>Seller Testimonials</h1>
+                      <div class="testimonial-slot1">
+                        <p>"From the time we met Erin we could tell she was energetic, professional and enthusiastic about real estate. She sold our house in twenty days, pretty impressive. She helped us through the sale of our house and the purchase of another in a very timely fashion. She took care of everything and it could not have been a better experience. We will use her in any future real estate transactions and would highly recommend her to anyone.<br><br>THANKS ERIN, WE LOVE OUR NEW HOME. "</p>
+                        <h3>-Dan and Brenda, NE Portland</h3>
+                      </div>
+                      <div class="testimonial-slot2">
+                        <p>“Erin helped me purchase a home in October 2015 as well as sell the home in July 2016 for over listing price! Great communication every step of the way. Made the process very easy. I would recommend Erin to anyone looking to buy a house or sell a house.”</p>
+                        <h3>-tuns245, 6935 Se 68th Ave, Portland</h3>
+                      </div>
+                      <div class="testimonial-slot3">
+                        <p>“Erin has helped us sell and buy a home. Both times she took exceptional care of us throughout the process. She was responsive and available. She carefully listened and understood what we were looking for in a home. She had a very high level of professionalism and integrity throughout. We were very pleased with the way she negotiated price and repairs. Her positive attitude is a plus as well. She truly made both buying and selling enjoyable and stress-free. We highly recommend Erin.”</p>
+                        <h3>-unknown, Portland</h3>
+                      </div>
 
+                    </div>
+                  </div>
+                </div>
+                <div class="white-divider"></div>
+                <img class="sellers" src="img/sellers.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="footer">
         <p>Copyright © 2016 Larry Dean Tunseth&nbsp;&nbsp;&nbsp;</p>
         <p>Security &amp; Privacy&nbsp;&nbsp;&nbsp;</p>
         <p>Terms &amp; Conditions&nbsp;&nbsp;&nbsp;</p>
       </div>
-
     </div>
   </body>
 </html>

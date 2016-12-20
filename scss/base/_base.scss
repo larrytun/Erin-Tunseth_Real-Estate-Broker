@@ -69,19 +69,6 @@ body {
   margin-top: 5px;
 }
 
-.main-body-container h3 {
-  font-size: 23px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  margin-top: 20px;
-  text-align: center;
-  text-decoration: underline;
-  width: 100%;
-}
-
 .footer p {
   font-size: 10px;
   font-weight: 300;
@@ -130,5 +117,32 @@ body {
   font-weight: 300;
   text-shadow: 0px 2px 4px $header-shadow;
   color: $off-white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 8px;
+}
+
+ul li:nth-child(1) {
+  font-size: 16px;
+  font-weight: 300;
+  color: $main-dark;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: -3px;
+}
+
+ul li:nth-child(2) {
+  font-size: 22px;
+  font-weight: 700;
+  color: $cash;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li:nth-child(3) {
+  font-size: 12px;
+  font-weight: 300;
+  color: $main-dark;
   font-family: 'Source Sans Pro', sans-serif;
 }
