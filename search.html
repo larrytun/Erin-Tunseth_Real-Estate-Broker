@@ -3,6 +3,8 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/application.css" media="screen">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -28,7 +30,24 @@
             <a href="http://erintunseth.premierepropertynw.com/sell/">Sell</a>
             <a href="http://erintunseth.premierepropertynw.com/finance/">Finance</a>
             <a href="http://erintunseth.premierepropertynw.com/agents/81975-Erin-Tunseth/">Agent</a>
-            <a href="#">My Favorites</a>
+            <div class="modal fav-modal">
+              <label for="favorites-modal">
+                <div class="modal-trigger nav-trigger">
+                  <a>My Favorites</a>
+                </div>
+              </label>
+              <input class="modal-state" id="favorites-modal" type="checkbox" />
+              <div class="modal-fade-screen">
+                <div class="modal-inner">
+                  <div class="modal-close" for="favorites-modal"></div>
+                  <h1>Erin's Favorite Listings</h1>
+                  <div class="favorites-line"></div>
+                  <img class="favorites-1" src="img/favorite-1.png" alt="" />
+                  <img class="favorites-2" src="img/favorite-2.png" alt="" />
+                  <img class="favorites-3" src="img/favorite-3.png" alt="" />
+                </div>
+              </div>
+            </div>
             <a href="http://erintunseth.premierepropertynw.com/guides/">Community Guides</a>
             <a href="http://erintunseth.premierepropertynw.com/resources/">Resources</a>
             <a href="#">Contact Me</a>
