@@ -1,3 +1,8 @@
+.nav-trigger {
+  margin-left: 0px !important;
+}
+
+
 .modal {
   $base-border-color: #dcdcdc !default;
   $base-border-radius: 20px !default;
@@ -25,6 +30,31 @@
   label img {
     position: absolute;
     max-width: $modal-trigger-image-width;
+  }
+
+  .favorites-line {
+    width: 100%;
+    height: 1px;
+    background-color: $off-white;
+  }
+
+  .favorites-1 {
+    height: 175px;
+    margin-top: 45px;
+    margin-left: 72px;
+    position: absolute;
+  }
+  .favorites-2 {
+    height: 175px;
+    margin-top: 253px;
+    margin-left: 72px;
+    position: absolute;
+  }
+  .favorites-3 {
+    height: 175px;
+    margin-top: 460px;
+    margin-left: 72px;
+    margin-bottom: 81px;
   }
 
   .modal-state {
