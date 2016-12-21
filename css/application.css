@@ -974,6 +974,43 @@ ul li:nth-child(3) {
   height: 34px;
   margin-top: 6px; }
 
+form.search-bar {
+  position: relative; }
+  form.search-bar input[type=search] {
+    appearance: none;
+    background-color: #FEFEFD;
+    border-color: transparent;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 7px;
+    height: 30px;
+    position: relative;
+    transition: border-color;
+    width: 234px;
+    padding: 5px;
+    padding-left: 30px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); }
+  form.search-bar button[type=submit] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    outline: none;
+    padding: 5px 5px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: transparent;
+    border-color: transparent; }
+    form.search-bar button[type=submit] img {
+      height: 13px;
+      opacity: 0.7;
+      margin-top: 7px; }
+
 .main-logo {
   max-width: 449px;
   align-self: center;
