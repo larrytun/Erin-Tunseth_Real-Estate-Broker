@@ -1,33 +1,49 @@
-.main-logo {
-  max-width: 449px;
-  align-self: center;
-  margin-left: -140px;
-  margin-bottom: 10px;
+@media #{$brk-default} {
+  .main-logo {
+    max-width: 449px;
+    align-self: center;
+    margin-left: -140px;
+    margin-bottom: 10px;
+  }
+
+  .contact-logo {
+    max-width: 175px;
+    max-height: 55px;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+
+  .premiere-logo {
+    max-width: 173px;
+    align-self: center;
+    margin-left: 30px;
+  }
+
+  .left-line {
+    width: 212px;
+    height: 1px;
+    background-color: $off-white;
+    margin-top: 28px;
+  }
+
+  .right-line {
+    width: 212px;
+    height: 1px;
+    background-color: $off-white;
+    margin-top: 28px;
+  }
 }
 
-.contact-logo {
-  max-width: 175px;
-  max-height: 55px;
-  margin-right: 30px;
-  margin-top: 20px;
-}
-
-.premiere-logo {
-  max-width: 173px;
-  align-self: center;
-  margin-left: 30px;
-}
-
-.left-line {
-  width: 212px;
-  height: 1px;
-  background-color: $off-white;
-  margin-top: 28px;
-}
-
-.right-line {
-  width: 212px;
-  height: 1px;
-  background-color: $off-white;
-  margin-top: 28px;
+@media #{$brk-med} {
+  .main-logo {
+    width: 80%;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  .premiere-logo {
+    visibility: hidden;
+  }
+  .contact-logo {
+    visibility: hidden;
+  }
 }

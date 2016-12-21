@@ -1,209 +1,420 @@
-.main-container {
-  max-width: 980px;
-  background-color: $red;
-  margin: auto;
+@media #{$brk-default} {
+  .main-container {
+    max-width: 980px;
+    background-color: $red;
+    margin: auto;
+  }
+
+  .contact-logo-text {
+    float: right;
+    position: absolute;
+    text-align: right;
+    line-height: 15px;
+    margin-top: 26px;
+    margin-left: 765px;
+  }
+
+  .main-body-container {
+    max-width: 734px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .main-image {
+    background-image: url('../img/main-picture.png');
+    width: 556px;
+    height: 325px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 27px;
+  }
+
+  .erin-shot {
+    background-image: url('../img/erin.png');
+    width: 158px;
+    height: 201px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 27px;
+  }
+
+  .main-testimonial {
+    float: right;
+    position: absolute;
+    width: 160px;
+    text-align: center;
+    margin-left: 570px;
+    margin-top: 230px;
+  }
+
+  .search-pic {
+    background-image: url('../img/portland.png');
+    width: 206px;
+    height: 206px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+  }
+
+  .favorites-pic {
+    background-image: url('../img/house2.png');
+    width: 206px;
+    height: 206px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    margin-left: -232px;
+  }
+
+  .map-pic {
+    background-image: url('../img/map.png');
+    width: 206px;
+    height: 206px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+  }
+
+  .feat-testimonial-1 {
+    width: 100%;
+    border: 1px solid $off-white;
+    background-color: $light-red;
+    box-shadow: 0px 2px 4px $header-shadow;
+    margin-top: 23px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .feat-testimonial-2 {
+    width: 100%;
+    border: 1px solid $off-white;
+    background-color: $light-red;
+    box-shadow: 0px 2px 4px $header-shadow;
+    margin-top: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .feat-testimonial-3 {
+    width: 100%;
+    border: 1px solid $off-white;
+    background-color: $light-red;
+    box-shadow: 0px 2px 4px $header-shadow;
+    margin-top: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .testimonial-heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 58px;
+  }
+
+
+  // listings
+
+  .listing1 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing1-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-1.png'), cover, center, auto, 8px);
+  }
+
+  .listing2 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing2-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-2.png'), cover, center, auto, 8px);
+  }
+  .listing3 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing3-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-3.png'), cover, center, auto, 8px);
+  }
+
+  .listing4 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing4-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-4.png'), cover, center, auto, 8px);
+  }
+
+  .listing5 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing5-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-5.png'), cover, center, auto, 8px);
+  }
+  .listing6 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing6-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-6.png'), cover, center, auto, 8px);
+  }
+
+  .listing7 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing7-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-7.png'), cover, center, auto, 8px);
+  }
+
+  .listing8 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing8-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-8.png'), cover, center, auto, 8px);
+  }
+  .listing9 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing9-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-9.png'), cover, center, auto, 8px);
+  }
+
+  .listing10 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing10-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-10.png'), cover, center, auto, 8px);
+  }
+
+  .listing11 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing11-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-11.png'), cover, center, auto, 8px);
+  }
+  .listing12 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
+
+  .listing12-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-12.png'), cover, center, auto, 8px);
+  }
 }
 
-.contact-logo-text {
-  float: right;
-  position: absolute;
-  text-align: right;
-  line-height: 15px;
-  margin-top: 26px;
-  margin-left: 765px;
-}
 
-.main-body-container {
-  max-width: 734px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+@media #{$brk-med} {
+  .contact-logo-text {
+    visibility: hidden;
+  }
 
-.main-image {
-  background-image: url('../img/main-picture.png');
-  width: 556px;
-  height: 325px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 27px;
-}
+  .listing1 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.erin-shot {
-  background-image: url('../img/erin.png');
-  width: 158px;
-  height: 201px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 27px;
-}
+  .listing1-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-1.png'), cover, center, auto, 8px);
+  }
 
-.main-testimonial {
-  float: right;
-  position: absolute;
-  width: 160px;
-  text-align: center;
-  margin-left: 570px;
-  margin-top: 230px;
-}
+  .listing2 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.search-pic {
-  background-image: url('../img/portland.png');
-  width: 206px;
-  height: 206px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 25px;
-}
+  .listing2-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-2.png'), cover, center, auto, 8px);
+  }
+  .listing3 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.favorites-pic {
-  background-image: url('../img/house2.png');
-  width: 206px;
-  height: 206px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 25px;
-  margin-left: -232px;
-}
+  .listing3-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-3.png'), cover, center, auto, 8px);
+  }
 
-.map-pic {
-  background-image: url('../img/map.png');
-  width: 206px;
-  height: 206px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 25px;
-}
+  .listing4 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.feat-testimonial-1 {
-  width: 100%;
-  border: 1px solid $off-white;
-  background-color: $light-red;
-  box-shadow: 0px 2px 4px $header-shadow;
-  margin-top: 23px;
-  padding-left: 17px;
-  padding-right: 17px;
-}
+  .listing4-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-4.png'), cover, center, auto, 8px);
+  }
 
-.feat-testimonial-2 {
-  width: 100%;
-  border: 1px solid $off-white;
-  background-color: $light-red;
-  box-shadow: 0px 2px 4px $header-shadow;
-  margin-top: 21px;
-  padding-left: 17px;
-  padding-right: 17px;
-}
+  .listing5 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.feat-testimonial-3 {
-  width: 100%;
-  border: 1px solid $off-white;
-  background-color: $light-red;
-  box-shadow: 0px 2px 4px $header-shadow;
-  margin-top: 21px;
-  padding-left: 17px;
-  padding-right: 17px;
-}
+  .listing5-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-5.png'), cover, center, auto, 8px);
+  }
+  .listing6 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.testimonial-heading {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin-top: 58px;
-}
+  .listing6-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-6.png'), cover, center, auto, 8px);
+  }
 
+  .listing7 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-// listings
+  .listing7-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-7.png'), cover, center, auto, 8px);
+  }
 
-.listing1 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
+  .listing8 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.listing1-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-1.png'), cover, center, auto, 8px);
-}
+  .listing8-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-8.png'), cover, center, auto, 8px);
+  }
+  .listing9 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.listing2 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
+  .listing9-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-9.png'), cover, center, auto, 8px);
+  }
 
-.listing2-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-2.png'), cover, center, auto, 8px);
-}
-.listing3 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
+  .listing10 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.listing3-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-3.png'), cover, center, auto, 8px);
-}
+  .listing10-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-10.png'), cover, center, auto, 8px);
+  }
 
-.listing4 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
+  .listing11 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.listing4-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-4.png'), cover, center, auto, 8px);
-}
+  .listing11-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-11.png'), cover, center, auto, 8px);
+  }
+  .listing12 {
+    @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
+  }
 
-.listing5 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
+  .listing12-img {
+    @include search-list-pics(200px, 117px, 2px, url('../img/listing-12.png'), cover, center, auto, 8px);
+  }
+  .main-body-container {
+    max-width: 734px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
-.listing5-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-5.png'), cover, center, auto, 8px);
-}
-.listing6 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
+  .erin-shot {
+    background-image: url('../img/erin.png');
+    width: 190px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 27px;
+  }
+  .main-testimonial {
+    max-width: 450px;
+    width: 60%;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .search-pic {
+    background-image: url('../img/portland.png');
+    width: 25vw;
+    height: 0;
+    padding: 100% 0 0 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+  }
+  .favorites-pic {
+    background-image: url('../img/house2.png');
+    width: 25vw;
+    height: 0;
+    padding: 100% 0 0 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    margin-left: 0;
+  }
+  .map-pic {
+    background-image: url('../img/map.png');
+    width: 25vw;
+    height: 0;
+    padding: 100% 0 0 0;
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+  }
+  .main-image {
+    background-image: url('../img/main-picture.png');
+    width: 100vw;
+    height: 325px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    float: right;
+    position: absolute;
+  }
+  .main-image:after {
+    content: "";
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: $main-dark;
+  }
+  .feat-testimonial-1 {
+    width: 100%;
+    border: 1px solid $off-white;
+    background-color: $light-red;
+    box-shadow: 0px 2px 4px $header-shadow;
+    margin-top: 23px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .feat-testimonial-2 {
+    width: 100%;
+    border: 1px solid $off-white;
+    background-color: $light-red;
+    box-shadow: 0px 2px 4px $header-shadow;
+    margin-top: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .feat-testimonial-3 {
+    width: 100%;
+    border: 1px solid $off-white;
+    background-color: $light-red;
+    box-shadow: 0px 2px 4px $header-shadow;
+    margin-top: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .modal-hack {
+    width: 25vw;
+  }
 
-.listing6-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-6.png'), cover, center, auto, 8px);
-}
-
-.listing7 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
-
-.listing7-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-7.png'), cover, center, auto, 8px);
-}
-
-.listing8 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
-
-.listing8-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-8.png'), cover, center, auto, 8px);
-}
-.listing9 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
-
-.listing9-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-9.png'), cover, center, auto, 8px);
-}
-
-.listing10 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
-
-.listing10-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-10.png'), cover, center, auto, 8px);
-}
-
-.listing11 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
-
-.listing11-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-11.png'), cover, center, auto, 8px);
-}
-.listing12 {
-  @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
-}
-
-.listing12-img {
-  @include search-list-pics(200px, 117px, 2px, url('../img/listing-12.png'), cover, center, auto, 8px);
+  .testimonial-heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 58px;
+    visibility: hidden;
+  }
 }

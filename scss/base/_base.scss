@@ -17,132 +17,189 @@ body {
   font-weight: 300;
   color: $off-white;
   text-decoration: none;
+  text-align: center;
 }
 
-.contact-logo-text h4 {
-  font-size: 17px;
-  font-weight: bold;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  letter-spacing: 1px;
+
+@media #{$brk-default} {
+
+  .contact-logo-text h4 {
+    font-size: 17px;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  .contact-logo-text h5 {
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .contact-logo-text p {
+    font-size: 10px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
+
+  .main-testimonial h4 {
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: .3px;
+    margin: 0;
+    line-height: 23px;
+  }
+
+  .main-testimonial p {
+    font-size: 13px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $light-grey;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .footer p {
+    font-size: 10px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 2px;
+  }
+
+  .footer p:nth-child(2){
+    margin-left: 20px;
+  }
+
+  .footer p:nth-child(3){
+    margin-left: 20px;
+  }
+
+  .testimonial-heading-text {
+    font-size: 39px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
+
+  .feat-testimonial-1 p{
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .feat-testimonial-2 p{
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .feat-testimonial-3 p{
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 8px;
+  }
+
+  ul li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 300;
+    color: $main-dark;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -3px;
+  }
+
+  ul li:nth-child(2) {
+    font-size: 22px;
+    font-weight: 700;
+    color: $cash;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  ul li:nth-child(3) {
+    font-size: 12px;
+    font-weight: 300;
+    color: $main-dark;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
 }
 
-.contact-logo-text h5 {
-  font-size: 14px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  margin-top: 5px;
-}
+@media #{$brk-med} {
+  ul {
+    list-style: none;
+    padding-left: 8px;
+  }
 
-.contact-logo-text p {
-  font-size: 10px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-}
+  ul li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 300;
+    color: $main-dark;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -3px;
+  }
 
-.main-testimonial h4 {
-  font-size: 16px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  letter-spacing: .3px;
-  margin: 0;
-  line-height: 23px;
-}
+  ul li:nth-child(2) {
+    font-size: 22px;
+    font-weight: 700;
+    color: $cash;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
 
-.main-testimonial p {
-  font-size: 13px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $light-grey;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  margin-top: 5px;
-}
+  ul li:nth-child(3) {
+    font-size: 12px;
+    font-weight: 300;
+    color: $main-dark;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
 
-.footer p {
-  font-size: 10px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-  margin-top: 2px;
-}
+  .main-testimonial h4 {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    line-height: 30px;
+  }
 
-.footer p:nth-child(2){
-  margin-left: 20px;
-}
+  .main-testimonial p {
+    font-size: 22px;
+    font-weight: 700;
+    text-shadow: 0px 2px 4px  darken($header-shadow, 30%);
+    color: lighten($light-grey, 10%);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 5px;
 
-.footer p:nth-child(3){
-  margin-left: 20px;
-}
+  }
 
-.testimonial-heading-text {
-  font-size: 39px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
-}
-
-.feat-testimonial-1 p{
-  font-size: 16px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.feat-testimonial-2 p{
-  font-size: 16px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-.feat-testimonial-3 p{
-  font-size: 16px;
-  font-weight: 300;
-  text-shadow: 0px 2px 4px $header-shadow;
-  color: $off-white;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-ul {
-  list-style: none;
-  padding-left: 8px;
-}
-
-ul li:nth-child(1) {
-  font-size: 16px;
-  font-weight: 300;
-  color: $main-dark;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin-top: -3px;
-}
-
-ul li:nth-child(2) {
-  font-size: 22px;
-  font-weight: 700;
-  color: $cash;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-ul li:nth-child(3) {
-  font-size: 12px;
-  font-weight: 300;
-  color: $main-dark;
-  font-family: 'Source Sans Pro', sans-serif;
 }
