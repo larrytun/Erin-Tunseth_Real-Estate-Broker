@@ -46,4 +46,17 @@
   .contact-logo {
     visibility: hidden;
   }
+  .left-line {
+    width: 20%;
+    height: 1px;
+    background-color: $off-white;
+    margin-top: 28px;
+  }
+
+  .right-line {
+    width: 20%;
+    height: 1px;
+    background-color: $off-white;
+    margin-top: 28px;
+  }
 }

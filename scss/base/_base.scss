@@ -74,13 +74,13 @@ body {
   }
 
   .footer p {
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 300;
     text-shadow: 0px 2px 4px $header-shadow;
     color: $off-white;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    margin-top: 2px;
+    margin-top: 4px;
   }
 
   .footer p:nth-child(2){
@@ -188,7 +188,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 1px;
     margin: 0;
-    line-height: 30px;
   }
 
   .main-testimonial p {
@@ -199,7 +198,70 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     margin-top: 5px;
-
+  }
+  .testimonial-heading-text {
+    font-size: 39px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
+  body {
+    padding: 10px;
+  }
+  .feat-testimonial-1 p{
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
+  .feat-testimonial-2 p{
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .feat-testimonial-3 p{
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .nav-links {
+    a:nth-child(3){
+      visibility: hidden;
+      position: absolute;
+    }
+    a:nth-child(4){
+      visibility: hidden;
+      position: absolute;
+    }
+    a:nth-child(5){
+      visibility: hidden;
+      position: absolute;
+    }
+  }
+  .footer p {
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  .footer p:nth-child(2){
+    margin-left: 20px;
+  }
+
+  .footer p:nth-child(3){
+    margin-left: 20px;
+  }
 }

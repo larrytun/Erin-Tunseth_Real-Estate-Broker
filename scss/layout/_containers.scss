@@ -414,7 +414,10 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 58px;
-    visibility: hidden;
+    margin-top: 34px;
+  }
+
+  .dropdown-fix {
+    margin: auto;
   }
 }

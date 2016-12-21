@@ -284,8 +284,8 @@
     height: 32px;
     background-color: $blue-heading;
     position: absolute;
-    margin-left: 1px;
-    margin-top: -25vw;
+    margin-left: 2px;
+    margin-top: -24.9vw;
   }
 
   .favorites-pic:after {
@@ -299,8 +299,8 @@
     height: 32px;
     background-color: $blue-heading;
     position: absolute;
-    margin-left: 1px;
-    margin-top: -25vw;
+    margin-left: 2px;
+    margin-top: -24.9vw;
   }
 
   .map-pic:after {
@@ -314,8 +314,8 @@
     height: 32px;
     background-color: $blue-heading;
     position: absolute;
-    margin-left: 1px;
-    margin-top: -25vw;
+    margin-left: 2px;
+    margin-top: -24.9vw;
   }
 
   .view-listings-button {
@@ -375,7 +375,7 @@
       height: 30px;
       position: relative;
       transition: border-color;
-      width: 234px;
+      width: 100%;
       padding: 5px;
       padding-left: 30px;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, .3);
@@ -428,7 +428,7 @@
 
     .dropdown-button {
       background: $light-red;
-      width: 100%;
+      width: 100px;
       height: 100%;
       border-radius: 3px;
       cursor: pointer;
@@ -542,5 +542,11 @@
       flex-wrap: wrap;
       padding-bottom: 50px;
     }
+  }
+  .dropdown {
+    margin-top: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: auto;
   }
 }
