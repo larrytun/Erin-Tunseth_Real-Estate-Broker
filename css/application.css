@@ -953,6 +953,7 @@ ul li:nth-child(3) {
   color: #FEFEFD;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+  margin: auto;
   margin-top: 28px;
   text-align: center;
   text-decoration: underline;
@@ -1087,6 +1088,26 @@ form.search-bar {
     border-bottom-right-radius: 3px; }
   .dropdown .show-menu {
     display: block; }
+
+.expander {
+  margin: auto;
+  width: 100%; }
+  .expander .expander-trigger {
+    color: #477DCA;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.25em;
+    text-decoration: none;
+    user-select: none; }
+  .expander .expander-hidden + .expander-content {
+    display: none; }
+  .expander .expander-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px; }
 
 .main-logo {
   max-width: 449px;

@@ -57,6 +57,7 @@
   color: $off-white;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
+  margin: auto;
   margin-top: 28px;
   text-align: center;
   text-decoration: underline;
@@ -234,5 +235,36 @@ form.search-bar {
 
   .show-menu {
     display: block;
+  }
+}
+
+.expander {
+  $action-color: #477DCA !default;
+  $expander-toggle-size: 1em;
+  $expander-toggle-arrow-size: $expander-toggle-size;
+  margin: auto;
+  width: 100%;
+
+  .expander-trigger {
+    color: $action-color;
+    cursor: pointer;
+    display: block;
+    font-size: $expander-toggle-size;
+    margin-bottom: $expander-toggle-size;
+    padding-bottom: $expander-toggle-size / 4;
+    text-decoration: none;
+    user-select: none;
+  }
+
+
+  .expander-hidden + .expander-content {
+    display: none;
+  }
+
+  .expander-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
   }
 }
