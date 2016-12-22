@@ -1184,7 +1184,19 @@ body {
     height: 60px;
     background-color: #363E49;
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+
+  .footer:after {
+    content: url("../img/Search-Icon.png");
+    margin-top: -300px;
+    margin-left: -300px;
+    position: absolute; }
+
+  .footer:before {
+    content: url("../img/Map-Icon.png");
+    margin-top: -300px;
+    margin-left: 300px;
+    position: absolute; } }
 @media (min-width: 980px) {
   .header {
     width: 100%;
