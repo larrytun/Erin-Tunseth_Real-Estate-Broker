@@ -226,7 +226,11 @@ body {
     margin-left: 20px; }
 
   .footer p:nth-child(3) {
-    margin-left: 20px; } }
+    margin-left: 20px; }
+
+  html {
+    max-width: 979px;
+    overflow-x: hidden; } }
 @media (min-width: 980px) {
   .main-container {
     max-width: 980px;

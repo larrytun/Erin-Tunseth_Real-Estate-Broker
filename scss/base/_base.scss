@@ -264,4 +264,8 @@ body {
   .footer p:nth-child(3){
     margin-left: 20px;
   }
+  html {
+    max-width: 979px;
+    overflow-x: hidden;
+  }
 }
