@@ -60,3 +60,18 @@
     margin-top: 28px;
   }
 }
+
+@media #{$brk-mobile} {
+  .main-logo {
+    width: 90%;
+    align-self: baseline;
+    margin-top: -10px;
+  }
+  .premiere-logo {
+    visibility: hidden;
+    position: absolute;
+  }
+  .contact-logo {
+    visibility: hidden;
+  }
+}

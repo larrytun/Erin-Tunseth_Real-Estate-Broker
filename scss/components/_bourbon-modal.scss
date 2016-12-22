@@ -957,3 +957,11 @@
     }
   }
 }
+@media #{$brk-mobile} {
+  .modal {
+    .modal-button {
+      visibility: hidden;
+      height: 0px;
+    }
+  }
+}
