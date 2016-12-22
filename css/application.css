@@ -299,17 +299,16 @@ body {
     color: #FEFEFD;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    margin-top: 6px; }
+    margin-top: -5px; }
 
   .footer p:nth-child(2) {
-    margin-left: 14px; }
+    margin-left: 5px; }
 
   .footer p:nth-child(3) {
-    margin-left: 14px; } }
+    margin-left: 5px; } }
 @media (min-device-width: 1px) and (max-device-width: 569px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   html {
-    max-width: 569px;
-    overflow-x: hidden; }
+    max-width: 569px; }
 
   body {
     height: auto; }
@@ -351,17 +350,18 @@ body {
     visibility: hidden; }
 
   .main-testimonial h4 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 300;
     text-shadow: 2px 2px 3px black;
     color: #FEFEFD;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 1px;
-    margin: 0; }
+    margin: 0;
+    line-height: 60px; }
 
   .main-testimonial p {
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 300;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     color: #ced4de;
     font-family: 'Source Sans Pro', sans-serif;
@@ -369,12 +369,12 @@ body {
     margin-top: 5px; }
 
   .footer p {
-    font-size: 11px;
+    font-size: 20px;
     font-weight: 300;
     color: #FEFEFD;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    margin-top: 6px; }
+    margin-top: 0px; }
 
   .footer p:nth-child(2) {
     margin-left: 14px; }
@@ -1074,14 +1074,13 @@ body {
   .main-image {
     background-image: url("../img/main-picture.png");
     margin: auto;
-    width: 100vw;
-    height: 290px;
+    width: 100%;
+    height: 500px;
     background-size: cover;
     background-position: center;
-    z-index: -1;
-    float: right;
+    z-index: 1;
     position: absolute;
-    margin-top: -30px; }
+    margin-top: 30px; }
 
   .feat-testimonial-1 {
     visibility: hidden;
@@ -1097,21 +1096,53 @@ body {
 
   .erin-shot {
     background-image: url("../img/erin.png");
-    width: 162px;
-    height: 200px;
+    width: 420px;
+    height: 530.25px;
     background-size: cover;
     background-position: center;
     position: absolute;
-    margin-top: 280px;
+    margin-top: 580px;
     margin-left: 20px; }
 
   .main-testimonial {
     max-width: 450px;
-    width: 50%;
+    width: 45%;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 650px;
     position: absolute;
-    margin-left: 45%; } }
+    margin-left: 50%; }
+
+  .main-testimonial:after {
+    content: url("../img/contact-button.png");
+    position: absolute;
+    z-index: 2;
+    margin-left: -140px;
+    margin-top: 50px; }
+
+  .search-pic {
+    background-image: url("../img/portland.png");
+    width: 0px;
+    height: 0px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px; }
+
+  .favorites-pic {
+    background-image: url("../img/house2.png");
+    width: 0px;
+    height: 0px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px;
+    margin-left: -232px; }
+
+  .map-pic {
+    background-image: url("../img/map.png");
+    width: 0px;
+    height: 0px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 25px; } }
 @media (min-width: 980px) {
   .footer {
     width: 100%;
@@ -1132,24 +1163,28 @@ body {
     justify-content: center; } }
 @media (min-width: 1px) and (max-width: 569px) {
   .footer {
+    position: absolute;
     width: 100vw;
-    margin-bottom: -10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
     height: 30px;
     background-color: #363E49;
-    margin-top: 500px;
     display: flex;
-    justify-content: center;
-    align-self: flex-end; } }
+    justify-content: center; } }
 @media (min-device-width: 1px) and (max-device-width: 569px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .footer {
+    position: absolute;
     width: 100vw;
-    margin-bottom: -10px;
-    height: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    height: 60px;
     background-color: #363E49;
-    margin-top: 500px;
     display: flex;
-    justify-content: center;
-    align-self: flex-end; } }
+    justify-content: center; } }
 @media (min-width: 980px) {
   .header {
     width: 100%;
@@ -2491,6 +2526,21 @@ body {
     height: 45px;
     display: inline-block;
     margin: auto; } }
+@media (min-device-width: 1px) and (max-device-width: 569px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .search-pic:after {
+    content: '';
+    height: 0px;
+    width: 0px; }
+
+  .favorites-pic:after {
+    content: '';
+    height: 0px;
+    width: 0px; }
+
+  .map-pic:after {
+    content: '';
+    height: 0px;
+    width: 0px; } }
 @media (min-width: 980px) {
   .main-logo {
     max-width: 449px;
@@ -2559,13 +2609,25 @@ body {
   .main-logo {
     width: 90%;
     align-self: baseline;
-    margin-top: -10px; }
+    margin-left: 43%; }
 
   .premiere-logo {
     visibility: hidden;
     position: absolute; }
 
   .contact-logo {
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  .left-line {
+    width: 0px;
+    height: 0px;
+    background-color: #FEFEFD;
+    margin-top: 28px; }
+
+  .right-line {
+    width: 0px;
+    height: 0px;
+    background-color: #FEFEFD;
+    margin-top: 28px; } }
 
 /*# sourceMappingURL=application.css.map */

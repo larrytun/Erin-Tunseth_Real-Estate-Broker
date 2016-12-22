@@ -22,25 +22,29 @@
 }
 @media #{$brk-mobile} {
   .footer {
+    position: absolute;
     width: 100vw;
-    margin-bottom: -10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
     height: 30px;
     background-color: $main-dark;
-    margin-top: 500px;
     display: flex;
     justify-content: center;
-    align-self: flex-end;
   }
 }
 @media #{$brk-phone} {
   .footer {
+    position: absolute;
     width: 100vw;
-    margin-bottom: -10px;
-    height: 30px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    height: 60px;
     background-color: $main-dark;
-    margin-top: 500px;
     display: flex;
     justify-content: center;
-    align-self: flex-end;
   }
 }

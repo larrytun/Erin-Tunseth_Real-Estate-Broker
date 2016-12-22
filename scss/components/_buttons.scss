@@ -568,3 +568,25 @@
     margin: auto;
   }
 }
+
+@media #{$brk-phone} {
+  .search-pic:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+  }
+
+  .favorites-pic:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+
+  }
+
+  .map-pic:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+
+  }
+}
