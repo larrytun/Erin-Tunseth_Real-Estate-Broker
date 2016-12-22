@@ -965,3 +965,11 @@
     }
   }
 }
+@media #{$brk-phone} {
+  .modal {
+    .modal-button {
+      visibility: hidden;
+      height: 0px;
+    }
+  }
+}

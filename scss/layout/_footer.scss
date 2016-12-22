@@ -30,6 +30,17 @@
     display: flex;
     justify-content: center;
     align-self: flex-end;
-
+  }
+}
+@media #{$brk-phone} {
+  .footer {
+    width: 100vw;
+    margin-bottom: -10px;
+    height: 30px;
+    background-color: $main-dark;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
   }
 }

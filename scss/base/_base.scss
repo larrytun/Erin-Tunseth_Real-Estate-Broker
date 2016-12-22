@@ -353,5 +353,89 @@ body {
   .footer p:nth-child(3){
     margin-left: 14px;
   }
+}
 
+@media #{$brk-phone} {
+
+  html {
+    max-width: 569px;
+    overflow-x: hidden;
+  }
+  body {
+    height: auto;
+  }
+
+  .contact-logo-text h4 {
+    font-size: 17px;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+    visibility: collapse;
+    position: absolute;
+  }
+
+  .contact-logo-text h5 {
+    font-size: 14px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 5px;
+    visibility: collapse;
+    position: absolute;
+  }
+
+  .contact-logo-text p {
+    font-size: 10px;
+    font-weight: 300;
+    text-shadow: 0px 2px 4px $header-shadow;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    visibility: collapse;
+    position: absolute;
+  }
+  .testimonial-heading-text {
+    font-size: 0px;
+    visibility: hidden;
+  }
+  .main-testimonial h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  .main-testimonial p {
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 0px 2px 4px  darken($header-shadow, 30%);
+    color: lighten($light-grey, 10%);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 5px;
+  }
+  .footer p {
+    font-size: 11px;
+    font-weight: 300;
+    color: $off-white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    margin-top: 6px;
+  }
+
+  .footer p:nth-child(2){
+    margin-left: 14px;
+  }
+
+  .footer p:nth-child(3){
+    margin-left: 14px;
+  }
 }
