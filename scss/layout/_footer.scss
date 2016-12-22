@@ -46,17 +46,6 @@
     background-color: $main-dark;
     display: flex;
     justify-content: center;
-  }
-  .footer:after {
-    content: url('../img/Search-Icon.png');
-    margin-top: -300px;
-    margin-left: -300px;
-    position: absolute;
-  }
-  .footer:before {
-    content: url('../img/Map-Icon.png');
-    margin-top: -300px;
-    margin-left: 300px;
-    position: absolute;
+    margin-bottom: -200px;
   }
 }

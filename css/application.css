@@ -484,6 +484,12 @@ body {
     justify-content: space-between;
     margin-top: 58px; }
 
+  .mobile-icons {
+    width: 0px;
+    height: 0px; }
+    .mobile-icons img {
+      visibility: hidden; }
+
   .listing1 {
     width: 218px;
     height: 250px;
@@ -1027,7 +1033,13 @@ body {
     margin-top: 34px; }
 
   .dropdown-fix {
-    margin: auto; } }
+    margin: auto; }
+
+  .mobile-icons {
+    width: 0px;
+    height: 0px; }
+    .mobile-icons img {
+      visibility: hidden; } }
 @media (min-width: 1px) and (max-width: 569px) {
   .main-image {
     background-image: url("../img/main-picture.png");
@@ -1069,7 +1081,16 @@ body {
     text-align: center;
     margin-top: 300px;
     position: absolute;
-    margin-left: 45%; } }
+    margin-left: 45%; }
+
+  .mobile-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 550px;
+    position: absolute; }
+    .mobile-icons img {
+      height: 80px; } }
 @media (min-device-width: 1px) and (max-device-width: 569px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   .main-image {
     background-image: url("../img/main-picture.png");
@@ -1142,7 +1163,18 @@ body {
     height: 0px;
     background-size: cover;
     background-position: center;
-    margin-top: 25px; } }
+    margin-top: 25px; }
+
+  .mobile-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1200px;
+    position: absolute;
+    z-index: 2; }
+    .mobile-icons img {
+      height: 200px;
+      visibility: visible; } }
 @media (min-width: 980px) {
   .footer {
     width: 100%;
@@ -1184,19 +1216,8 @@ body {
     height: 60px;
     background-color: #363E49;
     display: flex;
-    justify-content: center; }
-
-  .footer:after {
-    content: url("../img/Search-Icon.png");
-    margin-top: -300px;
-    margin-left: -300px;
-    position: absolute; }
-
-  .footer:before {
-    content: url("../img/Map-Icon.png");
-    margin-top: -300px;
-    margin-left: 300px;
-    position: absolute; } }
+    justify-content: center;
+    margin-bottom: -200px; } }
 @media (min-width: 980px) {
   .header {
     width: 100%;
