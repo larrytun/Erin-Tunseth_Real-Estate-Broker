@@ -111,14 +111,79 @@
           </div>
         </div>
       </div>
+
       <div class="search-nav">
         <div class="search-dropdowns">
-          <img src="img/search.png" alt="" />
-          <img src="img/beds.png" alt="" />
-          <img src="img/baths.png" alt="" />
-          <img src="img/type.png" alt="" />
-          <img src="img/stories.png" alt="" />
-          <img src="img/price.png" alt="" />
+          <form class="search-bar" role="search">
+            <input type="search" placeholder="Enter Search" />
+            <button type="submit">
+              <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon-black.png" alt="Search Icon">
+            </button>
+          </form>
+          <div class="dropdown">
+            <div class="dropdown-container">
+              <p class="dropdown-button">Beds</p>
+              <ul class="dropdown-menu dropdown-select">
+                <li>Any</li>
+                <li>2+</li>
+                <li>3+</li>
+                <li>4+</li>
+                <li>5+</li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-container">
+              <p class="dropdown-button">Baths</p>
+              <ul class="dropdown-menu dropdown-select">
+                <li>Any</li>
+                <li>2+</li>
+                <li>3+</li>
+                <li>4+</li>
+                <li>5+</li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-container">
+              <p class="dropdown-button">Type</p>
+              <ul class="dropdown-menu dropdown-select">
+                <li>House</li>
+                <li>Condo</li>
+                <li>Apartment</li>
+                <li>Townhouse</li>
+                <li>Commercial</li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-container">
+              <p class="dropdown-button">Stories</p>
+              <ul class="dropdown-menu dropdown-select">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div class="dropdown-container">
+              <p class="dropdown-button">Price</p>
+              <ul class="dropdown-menu dropdown-select">
+                <li>$0+</li>
+                <li>$75K+</li>
+                <li>$100K+</li>
+                <li>$150K+</li>
+                <li>$200K+</li>
+                <li>$250K+</li>
+                <li>$300K+</li>
+                <li>$350K+</li>
+                <li>$400K+</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
         <div class="main-body-container">
@@ -230,7 +295,121 @@
             </ul>
             <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
           </div>
-          <h3 class="load-more">Load More Listings</h3>
+
+
+          <div class="expander">
+            <a href="javascript:void(0)" class="expander-trigger expander-hidden"><h3 class="load-more">Load More Listings</h3></a>
+            <div class="expander-content">
+                <div class="listing1">
+                  <div class="listing1-img"></div>
+                  <ul>
+                    <li>Aspenwood Pl</li>
+                    <li>$304,900</li>
+                    <li>3 Beds | 1.5 Baths | 1,437 Sqft | 0.12 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing2">
+                  <div class="listing2-img"></div>
+                  <ul>
+                    <li>241 Royal Oak St</li>
+                    <li>$385,000</li>
+                    <li>3 Beds | 3 Baths | 2,392 Sqft | 0.14 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing3">
+                  <div class="listing3-img"></div>
+                  <ul>
+                    <li>20080 Larkspur Ln, #47</li>
+                    <li>$124,900</li>
+                    <li>1 Beds | 1 Baths | 723 Sqft | N/A Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing4">
+                  <div class="listing4-img"></div>
+                  <ul>
+                    <li>9455 SW 146th Ter</li>
+                    <li>$130,000</li>
+                    <li>2 Beds | 2 Baths | 884 Sqft | N/A Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing5">
+                  <div class="listing5-img"></div>
+                  <ul>
+                    <li>12404 NE Flanders St</li>
+                    <li>$300,000</li>
+                    <li>3 Beds | 1 Baths | 1,374 Sqft | 0.18 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing6">
+                  <div class="listing6-img"></div>
+                  <ul>
+                    <li>1534 NE 26th Ave</li>
+                    <li>$350,000</li>
+                    <li>2 Beds | 1 Baths | 847 Sqft | N/A Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing7">
+                  <div class="listing7-img"></div>
+                  <ul>
+                    <li>36929 Deming Rd</li>
+                    <li>$450,000</li>
+                    <li>2 Beds | 2 Baths | 2,055 Sqft | 4.77 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing8">
+                  <div class="listing8-img"></div>
+                  <ul>
+                    <li>3206 SE 84th Ave</li>
+                    <li>$299,000</li>
+                    <li>3 Beds | 3 Baths | 1,791 Sqft | 0.2 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing9">
+                  <div class="listing9-img"></div>
+                  <ul>
+                    <li>14756 NW Blackthorne Ln</li>
+                    <li>$359,900</li>
+                    <li>2 Beds | 2 Baths | 1,444 Sqft | 0.14 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing10">
+                  <div class="listing10-img"></div>
+                  <ul>
+                    <li>445 NE Paropa Way</li>
+                    <li>$315,000</li>
+                    <li>4 Beds | 3 Baths | 1,998 Sqft | 0.2 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing11">
+                  <div class="listing11-img"></div>
+                  <ul>
+                    <li>10901 NE 11th Ave</li>
+                    <li>$279,900</li>
+                    <li>3 Beds | 2 Baths | 1,407 Sqft | 0.25 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+                <div class="listing12">
+                  <div class="listing12-img"></div>
+                  <ul>
+                    <li>71536 Fishhawk Rd</li>
+                    <li>$168,500</li>
+                    <li>3 Beds | 1 Baths | 1,027 Sqft | 0.34 Acres</li>
+                  </ul>
+                  <img class="view-listings-button" src="img/View-Listing-Button.png" alt="" />
+                </div>
+            </div>
+          </div>
         </div>
     </div>
   </body>
