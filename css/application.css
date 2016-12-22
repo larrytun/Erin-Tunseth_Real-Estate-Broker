@@ -1993,9 +1993,9 @@ body {
       margin: 0;
       margin-top: 7px;
       height: 30px;
-      position: relative;
+      position: absolute;
       transition: border-color;
-      width: 100%;
+      width: 80%;
       padding: 5px;
       padding-left: 30px;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); }
@@ -2006,7 +2006,7 @@ body {
       outline: none;
       padding: 5px 5px;
       height: 30px;
-      margin-top: 2px;
+      margin-top: 0px;
       margin-left: 2px;
       border-radius: 3px 0px 0px 3px;
       background-color: transparent;
@@ -2020,13 +2020,32 @@ body {
     line-height: 1.5em; }
     .dropdown .dropdown-container {
       display: inline-block;
-      position: relative;
+      position: absolute;
       text-align: center;
       min-width: 83.78px;
-      height: 30px; }
+      height: 30px;
+      margin-left: auto;
+      left: 50px;
+      margin-bottom: 7px; }
+    .dropdown .beds {
+      margin-left: 15%;
+      margin-top: 43px; }
+    .dropdown .baths {
+      margin-left: 30%;
+      margin-top: 43px; }
+    .dropdown .type {
+      margin-left: 45%;
+      margin-top: 43px; }
+    .dropdown .price {
+      margin-left: 60%;
+      margin-top: 43px; }
+    .dropdown .stories {
+      visibility: hidden;
+      float: left;
+      position: absolute; }
     .dropdown .dropdown-button {
       background: #A04E61;
-      width: 100px;
+      width: 83.78px;
       height: 100%;
       border-radius: 3px;
       cursor: pointer;
