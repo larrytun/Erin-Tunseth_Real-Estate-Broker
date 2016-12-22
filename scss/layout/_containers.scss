@@ -469,3 +469,51 @@
   }
 
 }
+
+@media #{$brk-phone} {
+  .main-image {
+    background-image: url('../img/main-picture.png');
+    margin: auto;
+    width: 100vw;
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    float: right;
+    position: absolute;
+    margin-top: -30px;
+  }
+  .feat-testimonial-1 {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .feat-testimonial-2 {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .feat-testimonial-3 {
+    visibility: hidden;
+    height: 0;
+  }
+  .erin-shot {
+    background-image: url('../img/erin.png');
+    width: 162px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 20px;
+  }
+  .main-testimonial {
+    max-width: 450px;
+    width: 50%;
+    text-align: center;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 45%;
+  }
+
+}
