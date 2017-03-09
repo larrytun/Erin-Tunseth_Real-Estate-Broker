@@ -1,0 +1,93 @@
+page-page1 {
+
+  .main-logo {
+    background-image: url("../assets/img/erin-logo.png");
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+
+  .main-image {
+    height: 30vh;
+    background-image: url("../assets/img/main-picture.png");
+    margin-right: -16px;
+    margin-left: -16px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #AC425F;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    color: #FEFEFD;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ced4de;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    color: #FEFEFD;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .erin-image {
+    background-image: url("../assets/img/erin.png");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 126%;
+  }
+
+  .search-button {
+    background-image: url("../assets/img/Search-Icon.png");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+  }
+
+  .map-button {
+    background-image: url("../assets/img/Map-Icon.png");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+  }
+
+  .heart-button {
+    background-image: url("../assets/img/Heart-Icon.png");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100%;
+  }
+
+  .menu-button {
+    background: linear-gradient(#C45F77,#773242);
+    margin: -16px -16px -16px -16px;
+
+    h5 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 3px;
+    }
+  }
+
+}
