@@ -55,25 +55,46 @@ page-page1 {
     padding-bottom: 126%;
   }
 
+  .middle-content {
+    margin-top: 10px;
+  }
+
+  .bottom-buttons {
+    margin-top: 10px;
+
+    h4 {
+      margin-top: -4px;
+    }
+  }
+
   .search-button {
     background-image: url("../assets/img/Search-Icon.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-bottom: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .map-button {
     background-image: url("../assets/img/Map-Icon.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-bottom: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .heart-button {
     background-image: url("../assets/img/Heart-Icon.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-bottom: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .main-logo {
