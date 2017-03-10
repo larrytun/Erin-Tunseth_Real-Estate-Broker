@@ -1,9 +1,7 @@
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,6 +17,8 @@ body {
   text-decoration: none;
   text-align: center;
 }
+
+
 
 
 @media #{$brk-default} {
@@ -150,6 +150,13 @@ body {
     color: $main-dark;
     font-family: 'Source Sans Pro', sans-serif;
   }
+
+  .app-cover {
+    visibility: hidden;
+    height: 0px;
+
+  }
+
 }
 
 @media #{$brk-med} {
@@ -268,6 +275,13 @@ body {
     max-width: 979px;
     overflow-x: hidden;
   }
+
+  .app-cover {
+    visibility: hidden;
+    height: 0px;
+
+  }
+
 }
 
 @media #{$brk-mobile} {
@@ -275,6 +289,8 @@ body {
   html {
     max-width: 569px;
     overflow-x: hidden;
+    height: 100vh;
+    overflow-y: hidden;
   }
   body {
     height: auto;
@@ -353,12 +369,62 @@ body {
   .footer p:nth-child(3){
     margin-left: 5px;
   }
+
+  .app-cover {
+    background-color: $red;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+
+    .app-message {
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: lighter;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        max-width: 280px;
+      }
+
+      a {
+        color: grey;
+        font-size: 15px;
+      }
+
+      .app-buttons {
+        max-width: 315px;
+        margin: auto;
+        align-self: center;
+        margin-top: 10px;
+      }
+    }
+  }
+
 }
 
 @media #{$brk-phone} {
 
   html {
     max-width: 569px;
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: hidden;
   }
   body {
     height: auto;
@@ -403,19 +469,18 @@ body {
     visibility: hidden;
   }
   .main-testimonial h4 {
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 700;
     text-shadow: 2px 2px 3px black;
     color: $off-white;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 1px;
     margin: 0;
-    line-height: 60px;
   }
 
   .main-testimonial p {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 700;
     text-shadow: 0px 2px 4px  darken($header-shadow, 30%);
     color: lighten($light-grey, 10%);
     font-family: 'Source Sans Pro', sans-serif;
@@ -423,19 +488,67 @@ body {
     margin-top: 5px;
   }
   .footer p {
-    font-size: 20px;
+    font-size: 11px;
     font-weight: 300;
     color: $off-white;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    margin-top: 0px;
+    margin-top: -5px;
   }
 
   .footer p:nth-child(2){
-    margin-left: 14px;
+    margin-left: 5px;
   }
 
   .footer p:nth-child(3){
-    margin-left: 14px;
+    margin-left: 5px;
   }
+
+  .app-cover {
+    background-color: $red;
+    width: 100vw;
+    height: 100vh;
+    visibility: visible;
+
+    .app-message {
+      padding: 60px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 100px;
+        font-weight: bold;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: lighter;
+        text-shadow: 0px 2px 4px $header-shadow;
+        color: $off-white;
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 675px;
+      }
+
+      a {
+        color: grey;
+        font-size: 40px;
+        width: 100%;
+      }
+
+      .app-buttons {
+        width: 80%;
+        margin: auto;
+        align-self: center;
+        margin-top: 30px;
+      }
+    }
+  }
+
 }

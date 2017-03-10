@@ -17,9 +17,14 @@
   .main-body-container {
     max-width: 734px;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .main-image {
@@ -108,9 +113,13 @@
   }
 
   .testimonial-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 58px;
   }
   .mobile-icons {
@@ -123,7 +132,7 @@
   }
 
 
-  // listings
+  /* listings*/
 
   .listing1 {
     @include search-listings(218px, 250px, $off-white, 3px, 3px 4px 21px $header-shadow, 26px);
@@ -318,9 +327,13 @@
   .main-body-container {
     max-width: 734px;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .erin-shot {
@@ -419,9 +432,13 @@
   }
 
   .testimonial-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 34px;
   }
 
@@ -439,6 +456,12 @@
 }
 
 @media #{$brk-mobile} {
+
+  .main-container {
+   visibility: hidden;
+   height: 10px;
+  }
+
   .main-image {
     background-image: url('../img/main-picture.png');
     margin: auto;
@@ -485,8 +508,11 @@
   }
   .mobile-icons {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 550px;
     position: absolute;
 
@@ -498,6 +524,12 @@
 }
 
 @media #{$brk-phone} {
+
+  .main-container {
+   visibility: hidden;
+   height: 10px;
+  }
+  
   .main-image {
     background-image: url('../img/main-picture.png');
     margin: auto;
@@ -577,8 +609,11 @@
   }
   .mobile-icons {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 1200px;
     position: absolute;
     z-index: 2;

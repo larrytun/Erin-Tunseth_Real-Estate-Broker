@@ -1,0 +1,114 @@
+page-page2 {
+
+  .list-head {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .item-md {
+    background-color: #FEFEFD;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 4px 21px rgba(0, 0, 0, .5);
+  }
+
+  .item-ios {
+    background-color: #FEFEFD;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 4px 21px rgba(0, 0, 0, .5);
+  }
+
+  .listing-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    h1 {
+      color: #638E32;
+      font-size: 24px;
+      font-weight: 700;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    h2 {
+      color: #363E49;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+  }
+
+
+
+  .search-buttons {
+    background-color: #363E49;
+    margin-left: -5px;
+    margin-right: -5px;
+    padding: 15px;
+
+    .button-md {
+      width: 80%;
+      height: 50px;
+      background-color: #A04E61;
+      border-radius: 2px;
+      margin: auto;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .button-ios {
+      width: 80%;
+      height: 50px;
+      background-color: #A04E61;
+      border-radius: 2px;
+      margin: auto;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+  }
+
+  .content-md {
+    background-color: #773242;
+  }
+
+  .content-ios {
+    background-color: #773242;
+  }
+
+  .search-head {
+    background-color:  #773242;
+  }
+
+  .main-logo {
+    background-image: url("../assets/img/erin-logo.png");
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+
+  .menu-button {
+    background: linear-gradient(#C45F77,#773242);
+    margin: -16px -16px -16px -16px;
+
+    h5 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 3px;
+    }
+  }
+
+}
