@@ -1,12 +1,13 @@
 page-page1 {
 
-  .main-logo {
-    background-image: url("../assets/img/erin-logo.png");
-    background-size: contain;
-    background-position: center;
-    height: 100px;
-    background-repeat: no-repeat;
+  .content-md {
+    background-color: #773242;
   }
+
+  .content-ios {
+    background-color: #773242;
+  }
+
 
   .main-image {
     height: 30vh;
@@ -75,6 +76,14 @@ page-page1 {
     padding-bottom: 100%;
   }
 
+  .main-logo {
+    background-image: url("../assets/img/erin-logo.png");
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+
   .menu-button {
     background: linear-gradient(#C45F77,#773242);
     margin: -16px -16px -16px -16px;
@@ -89,5 +98,4 @@ page-page1 {
       padding-bottom: 3px;
     }
   }
-
 }
