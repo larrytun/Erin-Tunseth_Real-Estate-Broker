@@ -1,5 +1,58 @@
 page-featured {
 
+  .list-head {
+
+    h1 {
+      color: white;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+      margin: auto;
+    }
+  }
+
+  .item-md {
+    background-color: #FEFEFD;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 4px 21px rgba(0, 0, 0, .5);
+  }
+
+  .item-ios {
+    background-color: #FEFEFD;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 3px 4px 21px rgba(0, 0, 0, .5);
+  }
+
+  .favorites-background {
+    background-color: #363E49;
+  }
+
+  .listing-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    h1 {
+      color: #638E32;
+      font-size: 24px;
+      font-weight: 700;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    h2 {
+      color: #363E49;
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+  }
+
   .content-md {
     background-color: #773242;
   }
