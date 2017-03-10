@@ -456,6 +456,12 @@
 }
 
 @media #{$brk-mobile} {
+
+  .main-container {
+   visibility: hidden;
+   height: 10px;
+  }
+
   .main-image {
     background-image: url('../img/main-picture.png');
     margin: auto;
@@ -518,6 +524,12 @@
 }
 
 @media #{$brk-phone} {
+
+  .main-container {
+   visibility: hidden;
+   height: 10px;
+  }
+  
   .main-image {
     background-image: url('../img/main-picture.png');
     margin: auto;

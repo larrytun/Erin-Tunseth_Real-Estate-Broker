@@ -126,7 +126,11 @@ body {
     font-size: 12px;
     font-weight: 300;
     color: #363E49;
-    font-family: 'Source Sans Pro', sans-serif; } }
+    font-family: 'Source Sans Pro', sans-serif; }
+
+  .app-cover {
+    visibility: hidden;
+    height: 0px; } }
 @media (min-width: 570px) and (max-width: 979px) {
   ul {
     list-style: none;
@@ -228,11 +232,17 @@ body {
 
   html {
     max-width: 979px;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+
+  .app-cover {
+    visibility: hidden;
+    height: 0px; } }
 @media (min-width: 1px) and (max-width: 569px) {
   html {
     max-width: 569px;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: hidden; }
 
   body {
     height: auto; }
@@ -303,10 +313,48 @@ body {
     margin-left: 5px; }
 
   .footer p:nth-child(3) {
-    margin-left: 5px; } }
+    margin-left: 5px; }
+
+  .app-cover {
+    background-color: #773242;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh; }
+    .app-cover .app-message {
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .app-cover .app-message h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #FEFEFD;
+        font-family: 'Source Sans Pro', sans-serif; }
+      .app-cover .app-message h2 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: lighter;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #FEFEFD;
+        font-family: 'Source Sans Pro', sans-serif;
+        max-width: 280px; }
+      .app-cover .app-message a {
+        color: grey;
+        font-size: 15px; }
+      .app-cover .app-message .app-buttons {
+        max-width: 315px;
+        margin: auto;
+        align-self: center;
+        margin-top: 10px; } }
 @media (min-device-width: 1px) and (max-device-width: 569px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   html {
-    max-width: 569px; }
+    max-width: 569px;
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: hidden; }
 
   body {
     height: auto; }
@@ -348,18 +396,17 @@ body {
     visibility: hidden; }
 
   .main-testimonial h4 {
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 700;
     text-shadow: 2px 2px 3px black;
     color: #FEFEFD;
     font-family: 'Source Sans Pro', sans-serif;
     letter-spacing: 1px;
-    margin: 0;
-    line-height: 60px; }
+    margin: 0; }
 
   .main-testimonial p {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 700;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     color: #ced4de;
     font-family: 'Source Sans Pro', sans-serif;
@@ -367,18 +414,54 @@ body {
     margin-top: 5px; }
 
   .footer p {
-    font-size: 20px;
+    font-size: 11px;
     font-weight: 300;
     color: #FEFEFD;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    margin-top: 0px; }
+    margin-top: -5px; }
 
   .footer p:nth-child(2) {
-    margin-left: 14px; }
+    margin-left: 5px; }
 
   .footer p:nth-child(3) {
-    margin-left: 14px; } }
+    margin-left: 5px; }
+
+  .app-cover {
+    background-color: #773242;
+    width: 100vw;
+    height: 100vh;
+    visibility: visible; }
+    .app-cover .app-message {
+      padding: 60px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .app-cover .app-message h1 {
+        margin: auto;
+        text-align: center;
+        font-size: 100px;
+        font-weight: bold;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #FEFEFD;
+        font-family: 'Source Sans Pro', sans-serif; }
+      .app-cover .app-message h2 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: lighter;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #FEFEFD;
+        font-family: 'Source Sans Pro', sans-serif;
+        width: 675px; }
+      .app-cover .app-message a {
+        color: grey;
+        font-size: 40px;
+        width: 100%; }
+      .app-cover .app-message .app-buttons {
+        width: 80%;
+        margin: auto;
+        align-self: center;
+        margin-top: 30px; } }
 @media (min-width: 980px) {
   .main-container {
     max-width: 980px;
@@ -1057,6 +1140,10 @@ body {
     .mobile-icons img {
       visibility: hidden; } }
 @media (min-width: 1px) and (max-width: 569px) {
+  .main-container {
+    visibility: hidden;
+    height: 10px; }
+
   .main-image {
     background-image: url("../img/main-picture.png");
     margin: auto;
@@ -1111,6 +1198,10 @@ body {
     .mobile-icons img {
       height: 80px; } }
 @media (min-device-width: 1px) and (max-device-width: 569px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .main-container {
+    visibility: hidden;
+    height: 10px; }
+
   .main-image {
     background-image: url("../img/main-picture.png");
     margin: auto;
