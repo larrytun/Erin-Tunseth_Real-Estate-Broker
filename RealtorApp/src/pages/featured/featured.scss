@@ -1,0 +1,26 @@
+page-featured {
+
+  .main-logo {
+    background-image: url("../assets/img/erin-logo.png");
+    background-size: contain;
+    background-position: center;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+
+  .menu-button {
+    background: linear-gradient(#C45F77,#773242);
+    margin: -16px -16px -16px -16px;
+
+    h5 {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 3px;
+    }
+  }
+
+}
